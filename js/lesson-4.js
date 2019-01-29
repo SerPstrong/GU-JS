@@ -26,22 +26,3 @@ function toObject(number) {
 
 console.log(toObject(number));
 
-
-/*Продолжить работу с интернет-магазином:
-    В прошлом домашнем задании вы реализовали корзину на базе массивов. Какими объектами можно заменить их элементы?
-    Реализуйте такие объекты.
-    Перенести функционал подсчета корзины на объектно-ориентированную базу.
-*/
-
-var arr = [];
-
-arr.push('zero');
-arr.push('one', 2);
-arr.push('z');
-arr.push('rrt2', 2, "rtt");
-
-console.log(arr);
-
-for (let i = 0; i < arr.length; i++) {
-    console.log(arr.length);
-}
