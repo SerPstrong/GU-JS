@@ -1,0 +1,27 @@
+table {
+    font-size: 20px;
+    background-color: #fff;
+    color: #3a2702;
+}
+td {
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+tr:nth-child(even) td:nth-child(odd) {
+    background-color: #727272;
+}
+tr:nth-child(odd) td:nth-child(even) {
+    background-color: #727272;
+}
+tr:last-child td:nth-child(odd),
+tr:first-child td:nth-child(even){
+    background-color: #fff;
+}
+tr:nth-child(even) td:first-child{
+    background-color: #fff;
+}
+tr:nth-child(odd) td:last-child{
+    background-color: #fff;
+}
